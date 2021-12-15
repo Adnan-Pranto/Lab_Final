@@ -5,7 +5,7 @@
 
 void init()
 {
-    glClearColor(1.0, 1.0, 1.0, 1.0);
+    glClearColor(0.95, 0.92, 0.92, 1.0);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     gluOrtho2D(0.0, 34.0, 0.0, 30.0);
@@ -27,7 +27,6 @@ void circle(double e, double f, double g)
 void Draw()
 {
     glClear(GL_COLOR_BUFFER_BIT);
-
     glColor3f(0.0, 0.0, 0.0);
     circle(20,18,2.9);
 
